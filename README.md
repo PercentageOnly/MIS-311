@@ -5,14 +5,18 @@ The rise of the digital era and the fourth industrial revolution have made data 
 
 *This project aims to mine data (EDA), analyze and determine which external factors and lifestyle behaviors affect students' final exam scores the most such as learning environment, sleep time, and Internet access.*
 
-## Part 1: Resource Analysis and Data Selection and Rationale
-The first decisive milestone in any data science project is the evaluation and selection of the appropriate sample space (dataset). Among the datasets given,  the "Student Exam Performance" dataset  revealed superiority in multidimensional structure and was officially selected as the core research object.
-This data reflects the multilinear interaction between individual learning behaviors, daily life factors, demographic background, and socioeconomic conditions of students. A large-scale dataset of 10,000 records (rows) provides the ideal space to harness strategic insights into education.
-## Part 2: Data Cleaning and Preparation Methodology
-**The glitz of visual charts is meaningless if the input data is filled with garbage. The transparency of the results depends entirely on Data Preprocessing. Strictly adhering to the standard of MIS 311 exercises, the data has been cleaned through two core steps in Excel:**
-1.	Check and Remove Duplicates: The entire 10,000-line data table is reviewed through  the Remove Duplicates feature  on Excel's Data tab. Recorded results: Checked and no duplicate rows, ensuring the originality of the sample set.
-2.	Handling Missing Data using the Mean Imputation method: Through the Filter tool, the Blanks process is performed on important columns such as final_exam_score, study_hours_per_day, and sleep_hours. In order not to lose valuable observations, the "Mean Imputation" strategy is applied. The blank cells (if any) for the quantitative variable will be filled with the calculated value from the =AVERAGE() function  of the entire class. This is an excellent data processing mindset that preserves the freedom of the sample space without deviating the standard distribution curve.
-# Part 3: Descriptive Statistics
+## 1. Data Overview
+**Description & Context:** The selected dataset is the "Student Exam Performance" dataset. It simulates student academic performance based on study behavior, engagement, and lifestyle factors. It is designed to help analysts explore how elements like sleep, study environment, and socio-economic background influence a student's final exam score.
+
+**Source:** The dataset was sourced from Kaggle, uploaded by the user 'ssssws'.
+
+**Dataset Size:** The dataset contains a substantial *10,000 rows* (representing individual students) and 23 columns (features and target variables).
+
+## 2. Data Cleaning
+**To ensure the accuracy of the analysis, the data was cleaned using the following steps:**
+**Identify and handle missing values:** During the initial data inspection using Excel's Filter tool, missing values (blanks) were identified in critical numerical columns such as *study_hours_per_day* and *sleep_hours*. To address this, Mean Imputation was applied, replacing the blank cells with the calculated average of their respective columns to preserve the overall data distribution.
+**Identify and remove duplicate rows:** The dataset was checked for duplicates using the 'Remove Duplicates' function based on the primary key *student_id*. The check confirmed that there were no duplicate rows in the dataset, ensuring the integrity of all 10,000 unique records.
+# 3: Descriptive Statistics
 Descriptive statistics is the art of condensing thousands of raw data points into representative numbers that have narrative power. Using the Analysis ToolPak in Excel, the 10,000-line data block of column final_exam_score (Final Exam Score) was fed into the analysis model.
 
 <img width="325" height="445" alt="image" src="https://github.com/user-attachments/assets/25536f90-0222-4ac6-a747-47e29a5b5eb3" />
