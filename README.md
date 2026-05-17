@@ -29,7 +29,7 @@ Descriptive statistics is the art of condensing thousands of raw data points int
 5.	Standard Deviation (Độ lệch chuẩn): 12.15
 6.	Range: 93.4 (From Minimum is 4.4 to Maximum is 97.8)
 Statistical Insight Explanation: The  average score of the whole course hovered near 50 points (49.68), with the median almost exactly matching (49.55). This convergence proves that the test scores have an extremely symmetrical standard distribution pattern (bell-shaped curve). A standard deviation of 12.15 indicates that student scores are moderately dispersed around the mean; However, the huge gap from the lowest (4.4 points) to the highest (97.8 points) exposes a large inequalities in performance, requiring us to explore the impact variables later.
-## Part 4: Extracting Data Analysis Insights using Pivot Tables
+## 4: Extracting Data Analysis Insights using Pivot Tables
 Here are 3 excellent insights extracted from the dataset through the Pivot Table tool, demonstrating how external and lifestyle factors affect academic outcomes.
 
 **Insight 1: How does the learning environment affect grades?**
