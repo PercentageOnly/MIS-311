@@ -60,3 +60,8 @@ By analyzing the percentage weight (% of Row Total) between the internet_access 
 1.	Group with Internet (Yes): Pass Rate is 48.89% (Slippage 51.11%)
 2.	Group No Internet (No): Pass Rate is 45.86% (Slippage 54.14%)
 Insight takeaway: The  presence of the Internet created a clear push, improving students' pass rates by about 3% (from 45.86% to 48.89%). In the era of digital education, Internet resources serve as a huge virtual library to help students fill knowledge gaps. This 3% gap is a testament to the "digital divide," a systemic barrier that policymakers need to level. (Recommended chart: 100% Stacked Column Chart).
+# REFERENCE:
+
+Ahmed, W., Wani, M. A., Plawiak, P., Meshoul, S., Mahmoud, A., & Hammad, M. (2025). Machine learning-based academic performance prediction with explainability for enhanced decision-making in educational institutions. Scientific Reports, 15(1), 26879. https://doi.org/10.1038/s41598-025-12353-4
+
+Checking your browser - reCAPTCHA. (n.d.). https://www.kaggle.com/datasets/ssssws/student-exam-performance-dataset
